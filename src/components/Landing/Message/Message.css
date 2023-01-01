@@ -1,0 +1,34 @@
+.container-message {
+	display: flex;
+	justify-content: space-between;
+}
+.title-message {
+	background-color: #deb22d41;
+	padding: 10px;
+	color: var(--yellow);
+	position: relative;
+	width: 39vw;
+	font-size: 20px;
+}
+.title-message::after {
+	content: "";
+	position: absolute;
+	background-color: var(--yellow);
+	width: 5px;
+	height: 100%;
+	right: 0;
+	top: 0;
+}
+.the-message {
+	font-size: 15px;
+	width: 90%;
+	margin-top: 20px;
+}
+@media only screen and (max-width: 725px) {
+    .container-message{
+        display: block;
+    }
+    .title-message{
+        width: auto;
+    }
+}

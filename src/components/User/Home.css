@@ -1,0 +1,89 @@
+.container-user {
+	background-color: #f6f6f6;
+	position: relative;
+	height: 110vh;
+}
+.backg-span {
+	height: 250px;
+	background: rgb(181, 13, 11);
+	background: linear-gradient(
+		90deg,
+		rgba(181, 13, 11, 1) 0%,
+		rgba(206, 24, 37, 1) 70%,
+		rgba(245, 42, 77, 1) 100%
+	);
+	box-shadow: 0 1px 10px 0 rgba(173, 14, 14, 0.9) !important;
+
+}
+.layout {
+	display: flex;
+	justify-content: space-around;
+	position: absolute;
+	right: 5%;
+	top: 18%;
+}
+.user-side {
+	width: 30%;
+	background-color: white;
+	padding: 20px;
+	border-radius: 9px;
+	box-shadow: 0 2px 5px 0 rgba(193, 200, 207, 0.5) !important;
+	overflow: hidden;
+	min-height: 88vh;
+}
+.user-content {
+	width: 60%;
+	background-color: white;
+	padding: 20px;
+	box-shadow: 0 2px 5px 0 rgba(207, 193, 193, 0.5) !important;
+	min-height: 88vh;
+	overflow: hidden;
+
+	border-radius: 9px;
+}
+.personal {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 10px;
+	font-weight: 700;
+}
+.personal img {
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	box-shadow: 0 2px 5px 0 rgba(193, 200, 207, 0.5) !important;
+
+	position: relative;
+}
+.user-pages {
+	display: flex;
+	flex-direction: column;
+}
+.user-pages a {
+	padding: 10px 5px;
+	color: black;
+	text-decoration: none;
+	border-bottom: 1px solid rgb(218, 212, 212);
+}
+.UserBox{
+	width: 22%;
+	background-color: #949396;
+	color: white;
+	padding: 9px;
+	border-radius:7px ;
+	display: flex;
+	font-weight: 700;
+	flex-direction: column;
+	box-shadow: 0 2px 5px 0 rgba(193, 200, 207, 0.5) !important;
+}
+.boxs-personal{
+	display: flex;
+	gap: 20px;
+}
+@media only screen and (max-width: 800px) {
+	.layout {flex-direction: column;}
+    .user-side {width: 100%;}
+    .user-content{ width: 100%; margin-top: 20px;}
+    .container-user {height: 220vh;}
+}

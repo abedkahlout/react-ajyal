@@ -1,0 +1,48 @@
+.hero {
+	background: url("../../../../public/assets/backg1.jpg");
+	height: 95vh;
+	width: 100%;
+	position: relative;
+	display: flex;
+	align-items: center;
+}
+.hero::after {
+	content: "";
+	position: absolute;
+	background-color: var(--red);
+	opacity: 0.5;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+}
+.hed-we-are {
+	z-index: +1;
+	position: absolute;
+	color: var(--yellow);
+	font-size: 35px;
+	font-weight: 500;
+	top: 25%;
+}
+.we-are {
+	z-index: +1;
+	position: absolute;
+	color: white;
+	font-size: 25px;
+	top: 40%;
+	width: 40%;
+}
+@media only screen and (max-width: 725px) {
+	.hed-we-are {
+		font-size: 27px;
+		font-weight: 700;
+		top: 10%;
+		background-color: white;
+		padding: 10px;
+	}
+	.we-are {
+		font-size: 22px;
+		top: 25%;
+		width: 60%;
+	}
+}

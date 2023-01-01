@@ -1,0 +1,29 @@
+
+.program-image-container {  
+    margin: 10px auto;
+    width: 480px;
+    display: grid; 
+    grid-template-columns: 0.8fr 1.2fr; 
+    grid-template-rows: 0.8fr 1.2fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      "small-image1 big-image"
+      "small-image2 big-image"; 
+      row-gap: 5px;
+      column-gap: 5px;
+  }
+  
+  .big-image { grid-area: big-image; }
+  
+  .small-image1 { grid-area: small-image1; }
+  
+  .small-image2 { grid-area: small-image2; }
+ 
+  .small-image2 img,  .small-image1 img{
+      width: 250px;
+      height: 250px;
+  }
+  .big-image img{
+    height: 515px;
+    width: 250px;
+  }

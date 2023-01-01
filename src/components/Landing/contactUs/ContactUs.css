@@ -1,0 +1,47 @@
+.contact-us-container{
+    background-color: var(--gray);
+    display: flex;
+    justify-content: space-around;
+    padding:30px;
+}
+.contact-us-discription{
+    width: 450px;
+    padding: 20px;
+}
+.nested-input-form{
+    display: flex;
+    justify-content: space-between;
+}
+.nested-input-form input{
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    background-color: white;
+    margin:10px 5px;
+    width: 50%;
+    outline: none;
+	box-shadow: 0 2px 5px 0 rgba(193, 200, 207, 0.5) !important;
+    width: 300px;
+}
+.contact-us-form form textarea{
+    margin: 5px;
+    padding: 10px;
+    border: none;
+    background-color: white;
+    margin: 5px;
+    width: 98%;
+    outline: none;
+	box-shadow: 0 2px 5px 0 rgba(193, 200, 207, 0.5) !important;
+    font-size: 20px;
+}
+.contact-us-form form button{
+    color: white;
+    background-color: var(--red);
+    width: 98%;
+    margin: 5px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 3px;
+    font-size: 20px;
+}

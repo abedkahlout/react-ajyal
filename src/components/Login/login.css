@@ -1,0 +1,63 @@
+.container-login{
+height: 100vh;
+display: flex;
+
+}
+.right-side{
+    
+    position: relative;
+        background: url("../../../public/assets/backg1.jpg");
+        height: 100%;
+        width: 40%;
+      
+}
+
+.right-side::after{
+	content: "";
+	position: absolute;
+	background-color: var(--red);
+	opacity: 0.5;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+}
+.logo {
+	z-index: +1;
+	position: absolute;
+	color: white;
+	top: 40%;
+    height: 140px;
+    right: 30%;
+    width: 140px;
+    border-radius: 5px;
+}
+.left-side{
+    height: 100%;
+    width: 60%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.input-group p {
+	margin: 12px 0;
+}
+.input-group input {
+	width: 500px;
+	height: 45px;
+	border: 1px solid rgb(212, 210, 210);
+	border-radius: 5px;
+	background-color: rgb(248, 245, 245);
+}
+.login-btn{
+	width: 500px;
+	text-align: center;
+	background-color: var(--red);
+	height: 45px;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	margin: 12px 0;
+
+}

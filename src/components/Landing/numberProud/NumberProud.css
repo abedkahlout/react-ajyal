@@ -1,0 +1,23 @@
+.numpers-container{
+    background-color: var(--gray);
+    display: flex;
+    justify-content: space-around;
+    padding: 23px 0;
+    flex-wrap: wrap;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 4px 12px;
+
+}
+.numper-item{
+    text-align: center;
+    width: 250px;
+    padding: 10px;
+}
+.numper-item .icon{
+    font-size: 50px;
+    color:var(--red);
+}
+
+.numper-item p{
+    font-size: 20px;
+}

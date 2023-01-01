@@ -1,0 +1,19 @@
+:root{
+    --maincolor :#7E0504;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    direction: rtl;
+}
+
+.clear {
+    clear: both;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}

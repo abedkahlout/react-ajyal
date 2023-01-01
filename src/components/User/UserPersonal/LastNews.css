@@ -1,0 +1,14 @@
+.lastnews-box{
+    box-sizing: border-box;
+    margin-top: 18px;
+    padding: 15px;
+    min-height: 450px;
+    max-height: 450px;
+    overflow-y: auto;
+    border-radius: 5px;
+	box-shadow: 0 2px 5px 0 rgba(193, 200, 207, 0.5) !important;
+}
+.lastnews-box p{
+  border-bottom: 1px solid  rgba(193, 200, 207, 0.5);
+  padding: 7px;
+}
